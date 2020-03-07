@@ -57,33 +57,32 @@ function myfunction(){
         });    
 };
 
-let intervalTimer;
+// let intervalTimer;
 
-function start(){
- intervalTimer = setInterval ( myfunction , 3000) ;
-}
+// function start(){
+//  intervalTimer = setInterval ( myfunction , 3000) ;
+// }
 
-function pause(){
-    clearInterval(intervalTimer);
-    console.log("rostam jan");
-}
+// function pause(){
+//     clearInterval(intervalTimer);
+// }
 
-start()
+// start()
 
 
-$(".weather-js").hover(function () {
+// $(".weather-js").hover(function () {
   
-   $(this).fadeIn(0, pause);
-}, function(){
-    start();
-});
+//    $(this).fadeIn(0, pause);
+// }, function(){
+//     start();
+// });
 
 
-$(".emoji-js").hover(function () {
-    $(this).fadeIn(0, pause);
-}, function(){
-    start();
-});
+// $(".emoji-js").hover(function () {
+//     $(this).fadeIn(0, pause);
+// }, function(){
+//     start();
+// });
 
 
 var tempContainer = document.getElementById('weatherApi');
